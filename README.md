@@ -1,10 +1,14 @@
 # summarizing-my-day
 
 A Claude Code skill that reconstructs what you did since your last summary — from local git
-history, shell history, and Claude Code session transcripts — plus your assigned JIRA
-activity, writes a first-person summary into your Markdown daily note, and proposes brief
-status comments on the tickets you worked. **It never posts to JIRA without your explicit
-confirmation.**
+history, shell history, and Claude Code session transcripts, plus your assigned JIRA activity
+and (optionally) your Slack messages — writes a first-person summary into your Markdown daily
+note, and proposes brief status comments on the tickets you worked. **It posts nothing to
+Slack, and nothing to JIRA without your explicit confirmation.**
+
+> **Scope:** This skill is built for software engineers. Its sources are the everyday developer
+> toolset — git, shell, Claude Code, JIRA, and Slack — and it deliberately does **not** cover
+> design tools (e.g. Figma) or project-/product-management apps beyond JIRA tickets.
 
 ## What it reads
 
